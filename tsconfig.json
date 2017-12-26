@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,     # ソースマップ作成の有無
+    "target": "ES5",        # target の設定
+    "outDir": "app/build",  # 出力先
+    "module": "commonjs"    # module のスタイル
+  },
+  "files": [                # ファイル
+    "typings/tsd.d.ts",
+    "app/app.ts"
+  ]
+}
